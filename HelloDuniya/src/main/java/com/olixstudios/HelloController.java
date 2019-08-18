@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController { //public class
 	@RequestMapping("/hello")
 	public String hello() { //hello function with return string return type
-		return "Hello to my duniyas!";  // return a string
+		return "Hello to my duniyas!";  // returning a string
 	}
 	
 }
