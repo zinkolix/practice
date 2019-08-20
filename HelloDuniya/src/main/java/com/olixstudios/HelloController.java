@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
  *
  */
 @RestController
-public class HelloController {
+public class HelloController { //public class
 	@RequestMapping("/hello")
-	public String hello() {
-		return "Hello to my duniyas!";
+	public String hello() { //hello function with return string return type
+		return "Hello to my duniyas!";  // returning a string
 	}
 	
 }
